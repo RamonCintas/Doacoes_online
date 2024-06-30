@@ -1,0 +1,16 @@
+<div align="center">
+  <br>
+  <form>
+      <label><b>Id:</b></label><br><input type="text" name="id" [(ngModel)] = "doacoes.id"><br>
+      <br>
+      <label><b>Nome da causa:</b></label><br><input type="text" name="nome" [(ngModel)] = "doacoes.nome"><br>
+      <br>
+      <label><b>Descrição:</b></label><br>
+      <textarea type="text" name="descricao" [(ngModel)] = "doacoes.descricao" rows="4" cols="50">
+      </textarea><br>
+      <br>
+      <label><b>Meta de arrecadação:</b></label><br><input type="text" name="meta" [(ngModel)] = "doacoes.meta"><br>
+      <br>
+      <button class="nav-link" id="submit" type="button" (click)="atualizar(doacoes.id)"><b>Atualizar doação</b></button>
+  </form>
+</div>
