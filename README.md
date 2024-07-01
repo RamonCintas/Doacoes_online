@@ -34,7 +34,7 @@ Repositório com um programa desenvolvido para o Projeto Interdisciplinar das di
 
 |      Estado      |     Plataforma   |                 Tarefa                |
 |      :---:       |       :---:      |                  :---:                |
-|:heavy_check_mark:|:computer:        |Elabore um projeto de uma API CRUD com spring boot com o tema de doações online|
+|:heavy_check_mark:|:computer:        |Elabore um projeto que visa desenvolver uma plataforma online avançada para facilitar doações, promover transparência e fortalecer a arrecadação de fundos para organizações sem fins lucrativos.|
 
 </details>
 </div>
