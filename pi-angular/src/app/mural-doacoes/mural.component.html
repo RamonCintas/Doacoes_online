@@ -1,0 +1,22 @@
+<div align="center">
+  <br>
+  <section class="lista-doacoes">
+      <div *ngFor="let doacoes of doacoes">
+          <div class="card" style="width:18rem;">
+              <div class="card-body" >
+                  <button class="nav-link" id="submit"  type="button" (click)="excluir(doacoes.id)"><b>Excluir</b></button>
+                  <br>
+                  <button type="button">
+                    <a class="nav-link"  id="submit" routerLink="/painel2"><b>Atualizar</b></a>
+                  </button>
+                  <br>
+                  <br>
+                  <p class="card-title"><b>Código da doação:</b><br>{{doacoes.id}}</p>
+                  <p class="card-title"><b>Nome da causa:</b><br>{{doacoes.nome}}</p>
+                  <p class="card-text"><b>Descricão:</b><br>{{doacoes.descricao}}</p>
+                  <p class="card-text"><b>Meta de arrecadação:</b><br>R$ {{doacoes.meta}},00</p>
+              </div>
+          </div>
+      </div>
+  </section>
+</div>
